@@ -1,9 +1,9 @@
 /*
 Below are the routes which will be needed by the app
 */
-var expresults = requestuire('expresults');
-var router = expresults.Router();
-var burger = requestuire('../models/burger.js');
+var express = require('express');
+var router = express.Router();
+var burger = require('../models/burger.js');
 
 // Routes when user goes to the main page
 router.get('/', function (request, result) {
