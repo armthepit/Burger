@@ -71,6 +71,7 @@ var orm = {
 			callback(result);
 		});
 	},
+	// orm to delete from the burger database - future use
 	delete: function (table, condition, callback) {
 		var queryString = 'DELETE FROM ' + table;
 		queryString = queryString + ' WHERE ';
